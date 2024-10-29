@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Notice - Sherubtse College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/sherubtse-logo.png" alt="Sherubtse College Logo" class="logo">
+            <h1>Sherubtse College Notice Board</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add_notice.html">Add Notice</a></li>
+                <li><a href="notice.html">View Notices</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="add-notice">
+            <h2>Add New Notice</h2>
+            <form id="addNoticeForm">
+                <label for="noticeTitle">Notice Title</label>
+                <input type="text" id="noticeTitle" required>
+
+                <label for="noticeDetails">Notice Details</label>
+                <textarea id="noticeDetails" rows="5" required></textarea>
+
+                <label for="noticeImage">Upload Image (Optional)</label>
+                <input type="file" id="noticeImage" accept="image/*">
+
+                <label for="noticeVideo">Upload Video (Optional)</label>
+                <input type="file" id="noticeVideo" accept="video/*">
+
+                <button type="submit">Add Notice</button>
+            </form>
+            <p id="noticeMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sherubtse College</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Sherubtse College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="logo.png" alt="Sherubtse College Logo" class="logo">
+            <h1>Sherubtse College Notice Board</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add_notice.html">Add Notice</a></li>
+                <li><a href="notice.html">View Notices</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="feedback">
+            <h2>Feedback</h2>
+            <form id="feedbackForm">
+                <label for="feedbackName">Your Name</label>
+                <input type="text" id="feedbackName" required>
+
+                <label for="feedbackMessage">Feedback Message</label>
+                <textarea id="feedbackMessage" rows="5" required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sherubtse College</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

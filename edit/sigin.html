@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Sherubtse College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="logo.png" alt="Sherubtse College Logo" class="logo">
+            <h1>Sherubtse College Notice Board</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add_notice.html">Add Notice</a></li>
+                <li><a href="notice.html">View Notices</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sign-up">
+            <h2>Create an Account</h2>
+            <form id="signUpForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <p id="signUpMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sherubtse College</p>
+    </footer>
+
+    <script src="singup.js"></script>
+</body>
+</html>
